@@ -1,0 +1,182 @@
+.planing{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    font-size: 3rem;
+}
+
+.parent-slider{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
+/*First slide box*/
+.first-child{
+    height: 30rem;
+    width: 20rem;
+    background: rgb(216, 216, 216);
+    border-radius: 1%;
+    margin-left: 15rem;
+    transition: 0.9s;
+    opacity: .9;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc; 
+    box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.first-child:hover{
+    opacity: 1;
+    transform: scale(1.05, 1.1);
+}
+.first-child-head{
+    height: 5rem;
+    background: rgba(84, 248, 84, 0.705);
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+    margin-top: 3.8rem;
+    box-shadow: 0 8px 6px -6px black;
+}
+.first-child-body{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+/*First slide box END*/
+/*Second slide box*/
+.second-child{
+    margin-top: -2rem;
+    height: 30rem;
+    width: 20rem;
+    background: rgb(216, 216, 216);
+    border-radius: 1%;
+    transition: 0.9s;
+    opacity: .9;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc; 
+    box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.second-child:hover{
+    opacity: 1;
+    transform: scale(1.05, 1.1);
+}
+.second-child-head{
+    height: 5rem;
+    background: rgba(206, 252, 0, 0.705);
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-child-body{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+/*Second slide box end*/
+/*Third slide box*/
+.third-child{
+    height: 30rem;
+    width: 20rem;
+    background: rgb(216, 216, 216);
+    border-radius: 1%;
+    margin-right: 15rem;
+    transition: 0.9s;
+    opacity: .9;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+    -moz-box-shadow:    3px 3px 5px 6px #ccc; 
+    box-shadow:         3px 3px 5px 6px #ccc; 
+}
+.third-child:hover{
+    opacity: 1;
+    transform: scale(1.05, 1.1);
+}
+.third-child-head{
+    height: 5rem;
+    background: rgba(255, 52, 52, 0.705);
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-child-body{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+button{
+
+    margin-top: 10rem;
+    width: 15rem;
+    height: 2rem;
+    margin-left: 12%;
+    text-align: center;
+    background: whitesmoke;
+    border: solid .1px black;
+}
+
+@media only screen and (max-width: 1630px) {
+    .planing{
+        margin-bottom: 5rem;
+    }
+    .parent-slider{
+        margin: 0rem;
+    }
+    .first-child {
+      width: 10rem;
+      height: 100%;
+      margin-left: 0;
+      margin-right: -33rem;
+    }
+    .second-child{
+        width: 10rem;
+        height: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .third-child{
+        width: 10rem;
+        margin-right: 0;
+        height: 100%;
+        margin-left: -33rem;
+    }
+    button{
+        width: 5rem;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .planing{
+        margin-bottom: 5rem;
+    }
+    .parent-slider{
+        margin: 0rem;
+        display: block;
+    }
+    .first-child {
+      width: 100vh;
+      height: 100%;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+ 
+    .second-child{
+        width: 100vh;
+        height: 100%;
+        margin-left: 4.8rem;
+        margin-right: 5rem;
+
+    }
+    .third-child{
+        width: 100vh;
+        height: 100%;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    button{
+        width: 5rem;
+    }
+  }
+/*Third slide box END*/
